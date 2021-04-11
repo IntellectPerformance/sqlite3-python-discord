@@ -16,7 +16,9 @@ def ConnectSQLite(Type, Command):
         
 # This is the formula i created for calculating the item worth in my discord bot level system.
 
-            #Item_Order1 = (1 * Data[0][7]) digit 7 means the column order where it multiplies the "1" with the amount u currently have.
+            Item_Order1 = (1 * Data[0][7]) #digit 7 means the column order where it multiplies the "1" with the amount u currently have.
+            Calculate = Item_Order1 + Adding_Another_Item
+            str(Calculate)
             
 # Easy Bot Command Example
 if message.content.startswith('-examplecommand'):
